@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>bonita-connectors</artifactId>
+		<groupId>org.bonitasoft.connectors</groupId>
+		<version>6.0.1-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>bonita-connector-googlecalendar</artifactId>
+	<version>6.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<name>bonita-connector-googlecalendar</name>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<modules>
+		<module>bonita-connector-googlecalendar-common</module>
+		<module>bonita-connector-googlecalendar-createevent-def</module>
+		<module>bonita-connector-googlecalendar-createevent-impl</module>
+		<module>bonita-connector-googlecalendar-createeventwithwebcontent-def</module>
+		<module>bonita-connector-googlecalendar-createeventwithwebcontent-impl</module>
+		<module>bonita-connector-googlecalendar-deleteevents-def</module>
+		<module>bonita-connector-googlecalendar-deleteevents-impl</module>
+		<module>bonita-connector-googlecalendar-deleteeventbylink-def</module>
+		<module>bonita-connector-googlecalendar-deleteeventbylink-impl</module>
+		<module>bonita-connector-googlecalendar-retrieveevent-def</module>
+		<module>bonita-connector-googlecalendar-retrieveevent-impl</module>
+		<module>bonita-connector-googlecalendar-retrieveeventsbydaterange-def</module>
+		<module>bonita-connector-googlecalendar-retrieveeventsbydaterange-impl</module>
+		<module>bonita-connector-googlecalendar-updateevent-def</module>
+		<module>bonita-connector-googlecalendar-updateevent-impl</module>
+		<module>bonita-connector-googlecalendar-test</module>
+	</modules>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>2.4</version>
+                <configuration>
+                    <tagBase>https://svn.bonitasoft.org/bonita-connectors-6/tags/connectors/bonita-connector-googlecalendar</tagBase>
+                    <preparationGoals>clean install</preparationGoals>
+                    <goals>deploy</goals>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <scm>
+        <developerConnection>scm:svn:https://svn.bonitasoft.org/bonita-connectors-6/branches/connectors/bonita-connector-googlecalendar/bonita-connector-googlecalendar-6.0.x</developerConnection>
+    </scm>
+
+</project>

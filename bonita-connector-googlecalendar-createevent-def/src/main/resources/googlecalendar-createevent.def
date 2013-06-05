@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition:ConnectorDefinition xmlns:definition="http://www.bonitasoft.org/ns/connector/definition/6.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  	<id>googlecalendar-createevent</id>
+  	<version>1.0.0</version>
+  	<icon>google.png</icon>
+  	<category id = "googlecalendar" icon = "google.png" />
+  	
+  	<input name = "userEmail" type="java.lang.String" mandatory="true" defaultValue="your_user@gmail.com" />
+    <input name = "password" type="java.lang.String" mandatory="true" />
+    <input name = "calendarUrl" type="java.lang.String" mandatory="true" defaultValue="http://www.google.com/calendar/feeds/your_gmail_address/private/full" />
+    <input name = "title" type="java.lang.String"/>
+    <input name = "content" type="java.lang.String" />
+    <input name = "startTime" type="java.lang.String" mandatory="true" defaultValue="2012-12-25T20:00:00+01:00" />
+    <input name = "endTime" type="java.lang.String" mandatory="true" defaultValue="2012-12-25T23:00:00+01:00" />
+    <input name = "isAllDay" type="java.lang.Boolean" defaultValue = "false" />
+
+  	<output name = "insertedEditLink" type="java.lang.String" />
+  	
+    <page id = "GoogleCalendarParameters">
+      <widget id="userEmail" inputName="userEmail" xsi:type="definition:Text" />
+      <widget id="password" inputName="password" xsi:type="definition:Password"/>
+      <widget id="calendarUrl" inputName="calendarUrl" xsi:type="definition:Text" />
+    </page>
+    <page id = "FunctionParameters">
+      <widget id="title" inputName="title" xsi:type="definition:Text" />
+      <widget id="content" inputName="content" xsi:type="definition:TextArea" />
+      <widget id="startTime" inputName="startTime" xsi:type="definition:Text" />
+      <widget id="endTime" inputName="endTime" xsi:type="definition:Text" />
+      <widget id="isAllDay" inputName="isAllDay" xsi:type="definition:Checkbox" />
+    </page>
+</definition:ConnectorDefinition>

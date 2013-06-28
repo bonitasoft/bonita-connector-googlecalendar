@@ -4,7 +4,8 @@
     <id>googlecalendar-deleteeventbylink</id>
     <version>1.0.0</version>
     <icon>google.png</icon>
-    <category id = "googlecalendar" icon = "google.png" />
+    
+   <category id = "googlecalendar" icon = "google.png" parentCategoryId="calendar"/>
 
     <input name = "userEmail" type="java.lang.String" mandatory="true" defaultValue="your_user@gmail.com" />
     <input name = "password" type="java.lang.String" mandatory="true" />

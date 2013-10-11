@@ -8,7 +8,7 @@
 	</parent>
 
 	<artifactId>bonita-connector-googlecalendar</artifactId>
-	<version>6.1.0-rc-05</version>
+	<version>6.1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>bonita-connector-googlecalendar</name>
@@ -49,7 +49,7 @@
         <developerConnection>scm:git:git@github.com:bonitasoft/bonita-connector-googlecalendar.git</developerConnection>
         <connection>scm:git:git@github.com:bonitasoft/bonita-connector-googlecalendar.git</connection>
         <url>https://github.com/bonitasoft/bonita-connector-googlecalendar</url>
-        <tag>bonita-connector-googlecalendar-6.1.0-rc-05</tag>
+        <tag>HEAD</tag>
     </scm>
 
 </project>

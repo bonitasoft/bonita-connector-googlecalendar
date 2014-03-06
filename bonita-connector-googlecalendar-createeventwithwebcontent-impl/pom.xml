@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<artifactId>bonita-connector-googlecalendar</artifactId>
 		<groupId>org.bonitasoft.connectors</groupId>
-		<version>6.2.0-SNAPSHOT</version>
+		<version>1.0.0</version>
 	</parent>
 	<artifactId>bonita-connector-googlecalendar-createeventwithwebcontent-impl</artifactId>
 
 	<properties>
-        <implementation.id>googlecalendar-createeventwithwebcontent</implementation.id>
-    </properties>
-    
+		<implementation.id>googlecalendar-createeventwithwebcontent</implementation.id>
+	</properties>
+
 	<dependencies>
-		<dependency>			
+		<dependency>
 			<artifactId>bonita-connector-googlecalendar-common</artifactId>
 			<groupId>org.bonitasoft.connectors</groupId>
 			<version>${project.version}</version>
@@ -24,24 +25,11 @@
 			<version>${project.version}</version>
 		</dependency>
 	</dependencies>
-		<build>
+	<build>
 		<plugins>
 			<plugin>
 				<artifactId>maven-assembly-plugin</artifactId>
-				<executions>
-					<execution>
-						<id>assemble</id>
-						<phase>package</phase>
-						<goals>
-							<goal>single</goal>
-						</goals>
-						<configuration>
-							<descriptorRefs>
-								<descriptorRef>connector-assembly</descriptorRef>
-							</descriptorRefs>
-						</configuration>
-					</execution>
-				</executions>
+
 			</plugin>
 		</plugins>
 	</build>

@@ -42,6 +42,7 @@
 
 	<properties>
 		<bonita.engine.version>6.2.0</bonita.engine.version>
+		<google.calendar.common.version>1.0.0</google.calendar.common.version>
 	</properties>
 
 	<dependencies>

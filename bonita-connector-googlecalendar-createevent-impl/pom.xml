@@ -17,7 +17,7 @@
 		<dependency>			
 			<artifactId>bonita-connector-googlecalendar-common</artifactId>
 			<groupId>org.bonitasoft.connectors</groupId>
-			<version>${project.version}</version>
+			<version>${google.calendar.common.version}</version>
 		</dependency>
 		<dependency>			
 			<artifactId>bonita-connector-googlecalendar-createevent-def</artifactId>

@@ -7,7 +7,7 @@
 	<description>Implementation based on gdata-calendar 2.0</description>
 	<implementationClassname>org.bonitasoft.connectors.googlecalendar.GoogleCalendarDeleteEvents</implementationClassname>
 	<implementationId>googlecalendar-deleteevents-impl</implementationId>
-	<implementationVersion>1.0.0</implementationVersion>
+	<implementationVersion>$implementation.version$</implementationVersion>
 
 	$Dependencies$
 

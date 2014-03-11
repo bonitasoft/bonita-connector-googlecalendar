@@ -7,8 +7,8 @@
 		<groupId>org.bonitasoft.connectors</groupId>
 		<version>1.0.0</version>
 	</parent>
-	<
-	artifactId>bonita-connector-googlecalendar-updateevent-impl</artifactId>
+	
+	<artifactId>bonita-connector-googlecalendar-updateevent-impl</artifactId>
 	<version>1.0.0</version>
 	
 	<properties>

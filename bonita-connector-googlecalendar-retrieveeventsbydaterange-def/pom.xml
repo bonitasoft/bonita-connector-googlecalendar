@@ -9,5 +9,6 @@
 	</parent>
 
 	<artifactId>bonita-connector-googlecalendar-retrieveeventsbydaterange-def</artifactId>
+	<version>1.0.0</version>
 
 </project>

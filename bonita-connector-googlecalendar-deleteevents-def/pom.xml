@@ -10,5 +10,6 @@
 	</parent>
 
 	<artifactId>bonita-connector-googlecalendar-deleteevents-def</artifactId>
+	<version>1.0.0</version>
 
 </project>

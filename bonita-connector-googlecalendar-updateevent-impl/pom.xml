@@ -7,22 +7,24 @@
 		<groupId>org.bonitasoft.connectors</groupId>
 		<version>1.0.0</version>
 	</parent>
-	<artifactId>bonita-connector-googlecalendar-updateevent-impl</artifactId>
-
+	<
+	artifactId>bonita-connector-googlecalendar-updateevent-impl</artifactId>
+	<version>1.0.0</version>
+	
 	<properties>
-		<implementation.id>googlecalendar-updateevent</implementation.id>
-	</properties>
+        <definition.version>1.0.0</definition.version>
+    </properties>
 
 	<dependencies>
 		<dependency>
 			<artifactId>bonita-connector-googlecalendar-common</artifactId>
 			<groupId>org.bonitasoft.connectors</groupId>
-			<version>${google.calendar.common.version}</version>
+			<version>${project.parent.version}</version>
 		</dependency>
 		<dependency>
 			<artifactId>bonita-connector-googlecalendar-updateevent-def</artifactId>
 			<groupId>org.bonitasoft.connectors</groupId>
-			<version>${project.version}</version>
+			<version>${definition.version}</version>
 		</dependency>
 	</dependencies>
 	<build>

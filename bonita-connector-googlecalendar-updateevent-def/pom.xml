@@ -10,5 +10,6 @@
 	</parent>
 
 	<artifactId>bonita-connector-googlecalendar-updateevent-def</artifactId>
+	<version>1.0.0</version>
 
 </project>

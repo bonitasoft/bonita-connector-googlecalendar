@@ -8,5 +8,6 @@
 	</parent>
 	
 	<artifactId>bonita-connector-googlecalendar-createevent-def</artifactId>
+	<version>1.0.0</version>
 	
 </project>

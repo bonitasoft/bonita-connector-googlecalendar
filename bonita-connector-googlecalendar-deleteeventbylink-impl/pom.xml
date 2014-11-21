@@ -9,18 +9,13 @@
 	</parent>
 
 	<artifactId>bonita-connector-googlecalendar-deleteeventbylink-impl</artifactId>
-	<version>1.0.0</version>
+	<version>2.0.0</version>
 	
 	<properties>
         <definition.version>1.0.0</definition.version>
     </properties>
 
 	<dependencies>
-		<dependency>
-			<artifactId>bonita-connector-googlecalendar-common</artifactId>
-			<groupId>org.bonitasoft.connectors</groupId>
-			<version>${project.parent.version}</version>
-		</dependency>
 		<dependency>
 			<artifactId>bonita-connector-googlecalendar-deleteeventbylink-def</artifactId>
 			<groupId>org.bonitasoft.connectors</groupId>
